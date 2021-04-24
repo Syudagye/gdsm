@@ -1,0 +1,20 @@
+[package]
+name = "gdsm"
+version = "0.1.0"
+authors = ["Syudagye <44324659+Syudagye@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "gdsm"
+path = "src/lib.rs"
+
+[[bin]]
+name = "gdsm"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13.0"
+libflate = "1.0.4"
+regex = "1.4.6"
